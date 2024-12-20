@@ -1,0 +1,126 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f4f8;
+    margin: 20px;
+    color: #333;
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:darkolivegreen;
+  }
+  
+  /* Form styling */
+  form {
+    background-color:rgb(229,242,255);
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border:2px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    padding:20px;
+    margin-bottom: 20px;
+    background-color:#b1c6db;
+
+  }
+  
+  legend{
+    font-weight: bold;
+    text-align: left;
+    color:black;
+      }
+
+  
+
+    label{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    display:block;
+    margin-top: 10px;
+    color:2ce350;
+  }
+  input#name{
+    width:300px;
+    padding:7px;
+  }
+  input#email{
+    width:300px;
+    padding:7px;
+  }
+  input#phone{
+    width:300px;
+    padding:7px;
+  }
+  
+input textarea{
+  width:calc(100%,-1px);
+  padding:8px;
+  margin-top: 4px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+textarea#education{
+  width: 300px;
+}
+textarea#skills{
+  width: 300px;
+}
+textarea#experience{
+  width: 300px;
+}
+  button {
+    justify-content: center;
+    display:block;
+    background-color: #04264a;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
+  }
+  
+  button:hover {
+  color:rgba(250,100,0,0.8);
+  }
+  
+  /* Resume preview section */
+  #resume-output {
+    max-width: 600px;
+    margin: auto;
+    background-color:aliceblue;
+    padding: 20px;
+    border:2px solid#3498bd;
+    border-radius: 8px;
+    box-shadow: 0.4px 8px rgba(0, 0, 0, 0.1);
+    /* make resume editable */
+    outline: none;
+  }
+  
+ #resume-output h2 {
+    color:green;
+  }
+  
